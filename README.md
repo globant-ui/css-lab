@@ -1,9 +1,19 @@
-# Quick CSS3 introduction 
+# Basics of HTML and CSS
 
-## HTML?
+# HTML
 
-## The Concept
-[What is CSS](http://en.wikipedia.org/wiki/Style_sheet_language)
+All the basics about the markup language are available at [WebPlatform](http://docs.webplatform.org/wiki/html/tutorials). Please follow the different tutorials and you will be learning from basic tag semantics (span, p, div) to others more specific as (section, article, nav, etc).
+
+Recommendations:
+
+1. **The Basics of HTML:** create a basic `.html` file and experiment a little with your browser modifying and reloading to see the changes reflected.
+2. **Doctypes and Validations:** Keep focus on validate what you have written (DOCTYPES defines how you should write your content).
+3. **The HTML head:** You will see how to link your html file with other assets as `js` and `css`, for now keep focus on markup semantics and make some examples changing your already created file.
+4. **The HTML body:** Keep focus on markup semantics and understand default behaviors provided by the different types of inputs (`type=text`, `type=number`, `type=date`, etc). Do not care about browsers compatibility, just use lastest chrome or firefox to experiment.
+
+Once you finish with **The HTML body**, you should have a `html` file with several examples applying the different tags you were playing in the tutorial (do not include any JS o CSS code).
+
+# CSS
 
 * Create a basic [index.html](https://raw.githubusercontent.com/h5bp/html5-boilerplate/master/index.html) file (example provided).
 * Create an empty style.css file and link it to the index.html using [<link> tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link#Examples).
@@ -11,7 +21,7 @@
 * Add a basic page structure using HTML as it’s described in the following picture:
 
 ![alt text](images/html5-structure.png "HTML5 structure")
-    
+
 ## Rules
   
 ### Selectors and properties 
