@@ -2,16 +2,17 @@
 
 # HTML
 
-All the basics about the markup language are available at [WebPlatform](http://docs.webplatform.org/wiki/html/tutorials). Please follow the different tutorials and you will be learning from basic tag semantics (span, p, div) to others more specific as (section, article, nav, etc).
+For an introduction to HTML please go to [WebPlatform](http://docs.webplatform.org/wiki/html/tutorials).
 
 Recommendations:
 
-1. **The Basics of HTML:** create a basic `.html` file and experiment a little with your browser modifying and reloading to see the changes reflected.
-2. **Doctypes and Validations:** Keep focus on validate what you have written (DOCTYPES defines how you should write your content).
-3. **The HTML head:** You will see how to link your html file with other assets as `js` and `css`, for now keep focus on markup semantics and make some examples changing your already created file.
-4. **The HTML body:** Keep focus on markup semantics and understand default behaviors provided by the different types of inputs (`type=text`, `type=number`, `type=date`, etc). Do not care about browsers compatibility, just use lastest chrome or firefox to experiment.
+1. **The Basics of HTML:** create a basic `.html` file and experiment a little bit with it (add titles, images, tables, lists, ...).
+2. **Doctypes and Validations:** Learn how to write valid, and semantic markup [HTML VAlidation](https://docs.webplatform.org/wiki/guides/html_validation) ADD EXERCISE
+3. **The HTML head:** ADD A RESOURCE EXPLAINING HEAD; METATAGS; LINKS; SCRIPTS.
+4. **The HTML body:** ADD A LINK TO NEW HTML5 TAG SEMANTICS
+5. **ACCESSIBILITY** ADD LINK TO ACCESSIBILITY
 
-Once you finish with **The HTML body**, you should have a `html` file with several examples applying the different tags you were playing in the tutorial (do not include any JS o CSS code).
+By now, you should have an `html` file with several examples of how to create lists, tables, add images, headers, etc. All the markup is syntactically valid, is semantic, passes the HTML validator, and is accessible.
 
 # CSS
 
