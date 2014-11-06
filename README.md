@@ -55,7 +55,8 @@ W3C's CSS specifications can be found [here](http://www.w3.org/TR/css-2010/).
 
 ### 2.1 Basics
 
-Exercises:
+Exercises
+
 1. Create a basic [index.html](https://raw.githubusercontent.com/h5bp/html5-boilerplate/master/index.html) file (example provided).
 2. Create an empty style.css file and link it to the index.html using [the link tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link#Examples).
 3. Learn why is a best-practice to use a `reset stylesheet` [here](http://meyerweb.com/eric/tools/css/reset/). Then include [normalize.css](http://necolas.github.io/normalize.css/) before linking your style.css.
