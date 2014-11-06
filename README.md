@@ -123,9 +123,11 @@ Exercises
 * Learn how to create your own layout system [Grid Systems](http://www.adamkaplan.me/grid/)
 * Learn hot to float elements [CSS Floats](http://alistapart.com/article/css-floats-101)
 * Learn about [CSS units](http://alistapart.com/article/love-the-boring-bits-of-css)
-* Using your own layout system, implement the following page (only desktop).
+* Using your own layout system, implement an HTML page based on the following `mock-up` (only desktop).
   ![alt text](images/example-layout.png)
-* When the user **:hover** the right side black box (observe at middle right of the screenshot) it must show a “hello world” message and go back when move the mouse out. To accomplish this [Learn about CSS position](http://learnlayout.com/position.html).
+* If the user hovers one of the boxes, a new box must be shown. The new box must include text describing the section that box represents. In addition, it must be positioned at the top of the parent box, and must have a transparent background.
+	* Example: [http://codepen.io/mofeenster/full/qtkKy/](http://codepen.io/mofeenster/full/qtkKy/) 	
+	* To accomplish this [Learn about CSS position](http://learnlayout.com/position.html).
 
 ### 2.6 Media queries
 * [Learn Media Queries](http://css-tricks.com/css-media-queries/) and adapt your previous exercises to work on mobile screens. Use the following design as guide [example](http://mediaqueri.es/ity/).
