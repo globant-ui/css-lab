@@ -47,7 +47,7 @@ Through the rest of this section you will create a basic HTML document. After fi
 By now, you should have several `html` files with different examples of how to create lists, tables, add images, headers, etc. All the markup is syntactically valid, is semantic, passes the HTML validator, and is accessible.
 
 ## 2. CSS
-In this section you will learn hot to use CSS to modify the look & feel, and the layout of HTML documents.
+In this section you will learn how to use CSS to modify the look & feel, and the layout of HTML documents.
 
 For a short introduction to HTML & CSS please go to: [http://learn.shayhowe.com/html-css/](http://learn.shayhowe.com/html-css/)
 
@@ -97,13 +97,13 @@ Exercises:
     * .content must have a font size of 14px
     * .navigation must have a font size of 12px
     * .sidebar must have a font size of 10px
-4. If the class attribute finish with **r (example header, footer)**, the background must be magenta.
-5. If the class attribute contain an **a (example nav)** but do NOT finish with r, the background must be blue.
+4. If the class attribute finishes with **r (example header, footer)**, the background must be magenta.
+5. If the class attribute contains an **a (example nav)** but do NOT finish with r, the background must be blue.
 6. How could you add weight to the global font definition to win over the classes added by point 3?
 7. Imagine there is a declaration like class=”oh-no-inline-styles” style=”background:red” and you need to change the background to green without changing the inline style. How could you accomplish this?
 
 ### 2.4 The Box Model
-* Learn about the Box Model (how the browser calculate boxes size): [http://www.w3.org/TR/CSS21/box.html](http://www.w3.org/TR/CSS21/box.html)
+* Learn about the Box Model (how the browser calculates boxes size): [http://www.w3.org/TR/CSS21/box.html](http://www.w3.org/TR/CSS21/box.html)
 * Experiment with the box-model here by changing width / margin / padding / box-sizing [http://dabblet.com/gist/2986528](http://dabblet.com/gist/2986528)
 * Learn how to alter the box model calculations: [box-sizing](http://quirksmode.org/css/user-interface/boxsizing.html)
 * More on [box-sizing](http://adamschwartz.co/magic-of-css/chapters/1-the-box/)
@@ -121,7 +121,7 @@ Exercises
 
 #### 2.5.2 Layout systems
 * Learn how to create your own layout system [Grid Systems](http://www.adamkaplan.me/grid/)
-* Learn hot to float elements [CSS Floats](http://alistapart.com/article/css-floats-101)
+* Learn how to float elements [CSS Floats](http://alistapart.com/article/css-floats-101)
 * Learn about [CSS units](http://alistapart.com/article/love-the-boring-bits-of-css)
 * Using your own layout system, implement an HTML page based on the following `mock-up` (only desktop).
   ![alt text](images/example-layout.png)
