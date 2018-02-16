@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+	<title>Basics of HTML and CSS</title>
+</head>
+<body>
+
+	<section>
+		<h1>Sign Up</h1>
+
+		<article>
+			<form name="sign-up" id="sign-up">
+				<label>Name</label><input type="text" name="first-name" required>
+				<label>Last Name</label><input type="text" name="last-name"><br>
+				<label>Email</label><input type="email" name="email" required><br>
+				<label>Birth Date</label><input type="date" name="birthday"><br>
+				<label>Favorite Sport</label><select name="favorite-sport">
+					<option value="futbol">Futbol</option>
+					<option value="rugby">Rugby</option>
+					<option value="swimming">Swimming</option>
+				</select><br>
+				<label>About you:</label><br><textarea name="bio" rows="10" cols="30"></textarea><br>				
+				<button type="reset" form="sign-up" value="Reset">Reset</button>
+				<button type="submit" form="sign-up" value="Submit">Submit</button>
+			</form>
+		</article>
+	</section>
+
+</body>
+</html>
