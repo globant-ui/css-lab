@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+	<title>Basics of HTML and CSS</title>
+</head>
+<body>
+
+	<section>
+
+		<h1>Multimedia Page</h1>
+
+		<article>
+			<h2>The Image</h1>
+			<img src="images/image(1).jpg">
+		</article>
+		
+		<article>
+			<h2>The Video</h2>
+			<video controls>
+				<source src="video/world.mp4" type="video/mp4">
+				<source src="video/world.webm" type="video/webm">
+				Your browser does not support the video tag.
+			</video>
+		</article>
+
+		<article>
+			<h2>The Audio</h2>
+			<audio controls>
+				<source src="audio/world.ogg" type="audio/ogg">
+				<source src="audio/world.mp3" type="audio/mpeg">
+				Your browser does not support the audio element.
+			</audio>
+		</article>
+
+		<article>
+			<h2>The Sign Up Form</h2>
+
+			<form name="sign-up" id="sign-up">
+				<label>First Name</label><input type="text" name="first-name" required>
+				<label>Last Name</label><input type="text" name="last-name"><br>
+				<label>Email</label><input type="email" name="email" required><br>
+				<label>Birthday</label><input type="date" name="birthday"><br>
+				<label>Favorite Sport</label><select name="favorite-sport">
+					<option value="futbol">Futbol</option>
+					<option value="rugby">Rugby</option>
+					<option value="swimming">Swimming</option>
+				</select><br>
+				<label>About you:</label><br><textarea name="bio" rows="10" cols="30"></textarea><br>				
+				<button type="reset" form="sign-up" value="Reset">Reset</button>
+				<button type="submit" form="sign-up" value="Submit">Submit</button>
+			</form>
+		</article>
+
+
+		
+	</section>	
+
+</body>
+</html>
