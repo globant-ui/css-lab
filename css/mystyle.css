@@ -1,17 +1,22 @@
+html{
+	font-size: 14px;
+	font-family: "Trebuchet MS";
+}
+
 body{
 	background-color: #333333;
 	padding: 0px 20px 0px 20px;
 }
 
 header, nav, section, footer, article, aside{
-	background-color: #666666;
-	text-align: center;
+	background-color: #666666;	
 	border-radius: 10px;
 }
 
 header{	
 	height: 100px;
 	margin-bottom: 25px;
+	text-align: center;
 }
 
 aside, nav, section{
@@ -55,4 +60,14 @@ footer{
 	clear: both;
 	width: 100%;
 	height: 75px;
+	text-align: center;
+}
+
+.background{
+
+	background: url(../img/background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
