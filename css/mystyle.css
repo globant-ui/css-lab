@@ -63,6 +63,10 @@ footer{
 	text-align: center;
 }
 
+ header :not(section > header){
+	text-align: center;
+}
+
 .background{
 
 	background: url(../img/background.jpg) no-repeat center center fixed; 
@@ -71,3 +75,25 @@ footer{
 	-o-background-size: cover;
 	background-size: cover;
 }
+
+/*
+2.3 Specificity
+
+Exercise 2 and 3 */
+.header{font-size: 46px;}
+.footer{font-size: 10px;}
+.content{font-size: 14px;}
+.navigation{font-size: 12px;}
+.sidebar{font-size: 10px;}
+
+/*Exercise 4*/
+html [class$="r"]{background-color: magenta;}
+
+/*Exercise 5 */
+html [class*="a"]:not([class$="r"]){background-color: blue;}
+
+/*Exercise 6 */
+html * {font-size: 20px;}
+
+/*Exercise 7
+	I would change de style="background:red" to style="background:green" */
