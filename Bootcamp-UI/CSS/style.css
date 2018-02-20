@@ -40,19 +40,22 @@ section footer{
   margin-top: 10px;
   margin-bottom: 10px;
   padding-left: 10px 0px 10px 0px;
+
 }
 
 section header,
 section footer{
 	height: 80px;
+	padding-top: 5px;
 }
 
 section article{
 	height: 200px;
+	padding: 10px 10px 10px 10px;
 }
 
 section header{
-	margin-top: 50px;
+	margin-top: 20px;
 }
 
 footer{
@@ -74,6 +77,45 @@ header, footer, aside, nav{
 header, footer{
   text-align: center;
 }
+
+.header{
+	font-size: 46px;
+}
+
+.footer{
+	font-size: 10px;
+}
+
+.content{
+	font-size: 14px;
+}
+
+.navigation{
+	font-size: 12px;
+}
+
+.sidebar{
+	font-size: 10px;
+}
+
+[class$="r"]{
+	background-color: magenta;
+}
+
+[class*="a"]:not([class$="r"]){
+    background: blue;
+}
+
+[class] {
+  font-weight: bold;
+}
+
+footer[style] {
+   background: green !important;
+}
+
+
+
 /*
 Exercises:
 1. Add background to the header, footer, aside and nav.
