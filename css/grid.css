@@ -1,15 +1,20 @@
 /* Small screens (default) */
 html { font-size: 100%; }
 
+	.column{
+		float: left;
+	    padding-left: 1rem;
+	    padding-right: 1rem;
+
+	    width: 100%;
+
+	    margin-bottom: 10px;
+	}
+
 /* Medium screens (640px) */
 @media (min-width: 40rem) { 
   html { font-size: 112%; }
 
-  .column{
-	    float: left;
-	    padding-left: 1rem;
-	    padding-right: 1rem;	    
-	}
   
 	.column.full { width: 100%; }
 	.column.two-thirds { width: 66.7%; }
@@ -23,11 +28,6 @@ html { font-size: 100%; }
 @media (min-width: 64rem) { 
   html { font-size: 120%; }
 
-	.column{
-	    float: left;
-	    padding-left: 1rem;
-	    padding-right: 1rem;	    
-	}
   
 	.column.full { width: 100%; }
 	.column.two-thirds { width: 66.7%; }
@@ -46,7 +46,7 @@ html { font-size: 100%; }
 
 .container {
   margin: 0 auto;  
-  max-width: 48rem;
+  max-width: 60rem;
   width: 90%;
   
 }
