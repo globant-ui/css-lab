@@ -1,0 +1,113 @@
+header, nav, aside, section, footer, article {
+	background-color: #505050;
+	border-radius: 10px;
+	text-align: center;
+}
+
+html {
+	font-family: Sans-serif;
+}
+
+body {
+	color: white;
+	background-color: #202020;
+	font-weight: 750;
+}
+
+/*SECTION*/
+.content{
+	width: 660px;
+	background-color: #505050;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+.content .header{
+	height: 40px;
+	padding-top: 12px;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;	
+	padding-bottom: 20px;
+	color: white;
+}
+.content .article{
+	text-align: center;
+	height: 80px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 70px;
+	padding-bottom: 47px;
+	background-color: blue;
+}
+.content .footer{
+	margin-top: 10px;
+	height: 45px;
+	padding-top: 15px;
+	margin-right: 10px;
+	margin-left: 10px;
+	color: white;
+}
+/*END SECTION*/
+
+.header {
+	color: black;
+	margin: 1%;
+	padding: 2%;
+}
+
+.footer {
+	height: 50px;
+	font-size: 10px;
+	margin-top: 10px;
+	clear: left;
+	color: black;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.navigation {
+	margin-left: 1%;
+	margin-right: 1%;
+	font-size: 12px;
+	text-align: center;
+	width: 275px;
+	height: 375px;
+	padding: 25px;
+	float: left;
+	background: blue;
+	color: black;
+}
+
+.sidebar {
+	font-size: 10px;
+	text-align: center;
+	width: 275px;
+	height: 375px;
+	padding: 25px;
+	margin-bottom: 10px;
+	margin-left: 1%;
+	float: left;
+	color: black;
+}
+
+/* I apply this only to mozilla due to some odd render */
+@-moz-document url-prefix() { 
+	.sidebar { padding-right: 1%; } 
+} 
+
+[class$="r"]:not([class='container']){
+	background: magenta;
+}
+
+[class*='a']:not([class$='r']):not([class$='e']){
+	background: blue;
+}
+
+h3 {
+	background: green !important;
+}
