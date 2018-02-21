@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+
+	<meta name="keywords" content="Globant, HTML, Multimedia">
+	<meta name="description" content="Basics of HTML and CSS">
+	<meta name="author" content="Mañaricua Marcelo">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Basics of HTML and CSS</title>
+</head>
+<body>
+
+	<section>
+		<h1>Sign Up</h1>
+
+		<article>
+			<form name="sign-up" id="sign-up">
+				<label tabindex="0">Name</label><input type="text" name="first-name" required>
+				<label tabindex="0">Last Name</label><input type="text" name="last-name"><br>
+				<label tabindex="0">Email</label><input type="email" name="email" required><br>
+				<label tabindex="0">Birth Date</label><input type="date" name="birthday"><br>
+				<label tabindex="0">Favorite Sport</label><select name="favorite-sport">
+					<option value="futbol">Futbol</option>
+					<option value="rugby">Rugby</option>
+					<option value="swimming">Swimming</option>
+				</select><br>
+				<label tabindex="0">About you:</label><br><textarea name="bio" rows="10" cols="30"></textarea><br>				
+				<button type="reset" form="sign-up" value="Reset">Reset</button>
+				<button type="submit" form="sign-up" value="Submit">Submit</button>
+			</form>
+		</article>
+	</section>
+
+</body>
+</html>
