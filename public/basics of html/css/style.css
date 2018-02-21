@@ -1,0 +1,83 @@
+body {
+	background: linear-gradient(to right, #00ffbf, lightgray);
+	font-family: Monospace;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+	font-size: 20px;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h1, ul {
+	text-align: center;
+}
+
+ul {
+	padding: 0px;
+}
+
+td, th {
+	padding: 10px 10px 10px 10px;
+}
+
+.expenses {
+    width: 100%;
+    padding: 0px 150px 0px 150px;
+}
+
+.expenses td {
+    border: 1px solid white;
+}
+
+.expenses tr {
+	background-color: #f2f2f2;
+}
+
+.expenses tr:hover {
+	background-color: white;
+	color: #0099ff;
+}
+
+.expenses th {
+    text-align: left;
+    background: black;
+    color: white;
+}
+
+video {
+	width: 600px;
+	padding-bottom: 20px;
+}
+
+.sound {
+	padding-top: 20px;
+	height: 40px;
+}
+
+input, select, textarea {
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 4px;
+}
+
+.formu {
+	text-align: left;
+	margin: auto;
+	width: 30%;
+}
+
+input, select, textarea {
+	width: 100%;
+}
+
+.center {
+	margin: auto;
+	width: 45%;
+}
