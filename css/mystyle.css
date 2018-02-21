@@ -23,6 +23,7 @@ aside, nav, section{
 	height: 470px;
 	float: left;
 	margin-bottom: 25px;
+	display: inline-block;
 }
 
 section{
@@ -60,10 +61,6 @@ footer{
 	clear: both;
 	width: 100%;
 	height: 75px;
-	text-align: center;
-}
-
- header :not(section > header){
 	text-align: center;
 }
 
